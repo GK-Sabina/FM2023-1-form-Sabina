@@ -1,0 +1,120 @@
+:root{
+    font-size: 20px;
+}
+
+header{
+    text-align: center;
+}
+
+main{
+    font-family: 'Shantell Sans';
+    font-weight: 300;
+    font-size: 20px;
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    margin: 20px;
+    background-color: rgb(73, 172, 200);
+}
+
+h2{
+    background-color: rgb(152, 223, 243);
+}
+
+p{
+    font-size: 25px;
+    margin-bottom: 5px;
+    margin-top: -5px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+input{
+    font-size: 16px;
+    padding-right: 70px;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px;
+    margin-top: 5px;
+    margin-bottom: 7px;
+    background-color: #fff;
+}
+legend{
+    font-weight: 400;
+}
+label{
+    padding: 5px 10px;
+}
+.required::after{
+    content: "*";
+    color: red;
+}
+select{
+    font-size: 15px;
+    background-color: lightgrey;
+}
+textarea{
+    resize: none;
+    font-size: 20px;
+    color: rgb(13, 20, 164);
+}
+.button{
+    text-align: center;
+}
+button{
+    font-size: 20px;
+    color: #fff;
+    background-color: rgb(73, 172, 200);
+    width: 80%;
+    border: 1px solid rgb(77, 73, 200);
+}
+button:hover{
+    background-color: rgb(21, 0, 128);
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    display: inline-block;
+    padding: 20px 20px;
+    font-size: 1rem;
+}
+
+.img img{
+    border: 2px solid black;
+    padding: 5px;
+    max-width: 300px;
+    
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.img div{
+    display: inline-block;
+    margin: 5px;
+}
+
+@media screen and (max-width: 520px){
+    .fieldset label{
+        display: flex;
+        flex-direction: column;
+    }
+}
